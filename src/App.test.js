@@ -1,30 +1,31 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 import App from './App';
+import AirmanList from './components/AirmanList'
 import { shallow } from 'enzyme'
 
 
 describe('App Component', () => {
   it('renders without crashing', () =>{
     // Creating an instance of our component to test
-    const AppWrapper = shallow(<App />)
+    const appWrapper = shallow(<App />)
   })
   it('renders an AirmanList', () => {
-    const AppWrapper = shallow(<App />)
-    const AirmanList = appWrapper.find(AirmanList);
+    const appWrapper = shallow(<App />)
+    const airmanList = appWrapper.find(AirmanList);
 
-    expect(AirmanList).toHaveLength(1);
+    expect(airmanList).toHaveLength(1);
   })
-  it('should have state', () => {
-    const AppWrapper = shallow(<App />);
+  it('should have a listOfAirman state', () => {
+    const appWrapper = shallow(<App />);
 
-    expect(AppWrapper.state().airman).toHaveLength(1)
+    expect(appWrapper.state().listOfAirman).toBeDefined();
   })
-  it('should pass airman to AirmanList', () => {
-    const AppWrapper = shallow(<App />);
-    const airmanList = AppWrapper.find(AirmanList)
+  it('should pass this state listOfAirman to AirmanList', () => {
+    const appWrapper = shallow(<App />);
+    const airmanList = appWrapper.find(AirmanList)
 
-    expect(AirmanList.props().airman).toEqual(AppWrapper.state().airman)
+    expect(airmanList.props().listOfAirman).toEqual(appWrapper.state().listOfAirman)
   })
 })
 

@@ -109,7 +109,7 @@ const sampleAirman = [
         imgURL: "https://avatars.dicebear.com/v2/human/7.svg?options[width]=100&options[height]=100",
         skills: ['jumping on bed', 'living', 'blackmail'],
         tasksCurrent: ['provide husks to make fire'],
-        tasksCompleted: []
+        tasksCompleted: ['made tinder for the campfire']
     },
     {
         airmanId: 8,
