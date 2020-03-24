@@ -10,10 +10,10 @@ const sampleAirman = [
         squadron: '875MS',
         deros: "2021-01-01",
         bio: 'I like to grow on trees and turn brown fast.',
-        imgURL: "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+        imgURL: "https://avatars.dicebear.com/v2/human/1.svg?options[width]=100&options[height]=100",
         skills: ['basket-weeving','cross-fit'],
         tasksCurrent: [],
-        tasksCompleted: []
+        tasksCompleted: ['']
     },
     {
         airmanId: 2,
@@ -26,7 +26,7 @@ const sampleAirman = [
         squadron: '875MS',
         deros: "2022-02-02",
         bio: 'I like to grow on trees and turn brown fast.',
-        imgURL: "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+        imgURL: "https://avatars.dicebear.com/v2/human/2.svg?options[width]=100&options[height]=100",
         skills: ['hanging out on brittle branches','doing the split'],
         tasksCurrent: [],
         tasksCompleted: ['pie eating contest']
@@ -42,7 +42,7 @@ const sampleAirman = [
         squadron: '875MS',
         deros: "2023-03-03",
         bio: 'I come in clusters.',
-        imgURL: "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+        imgURL: "https://avatars.dicebear.com/v2/human/3.svg?options[width]=100&options[height]=100",
         skills: ['making people healthy','running'],
         tasksCurrent: ['make smoothies'],
         tasksCompleted: ['running track']
@@ -58,7 +58,7 @@ const sampleAirman = [
         squadron: '875MS',
         deros: "2022-22-02",
         bio: 'I grew up in the depths of the Pacific Ocean.',
-        imgURL: "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+        imgURL: "https://avatars.dicebear.com/v2/human/4.svg?options[width]=100&options[height]=100",
         skills: ['bottom feeding','being crabby'],
         tasksCurrent: ['find treasures at the bottom of the Atlantic Ocean'],
         tasksCompleted: ['found treasures at the bottom of the Pacific Ocean']
@@ -74,7 +74,7 @@ const sampleAirman = [
         squadron: '875MS',
         deros: "2021-01-01",
         bio: 'I like to grow on trees and turn brown fast.',
-        imgURL: "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+        imgURL: "https://avatars.dicebear.com/v2/human/5.svg?options[width]=100&options[height]=100",
         skills: ['basket-weeving','cross-fit'],
         tasksCurrent: [],
         tasksCompleted: []
@@ -90,25 +90,25 @@ const sampleAirman = [
         squadron: '875MS',
         deros: "2021-01-01",
         bio: 'I lived most of my life surrounded by honeydews and canteloupes.',
-        imgURL: "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+        imgURL: "https://avatars.dicebear.com/v2/human/6.svg?options[width]=100&options[height]=100",
         skills: ['eating','sleeping'],
-        tasksCurrent: [],
+        tasksCurrent: ['rolling around', 'getting cut up'],
         tasksCompleted: []
     },
     {
         airmanId: 7,
-        firstName: 'Brown',
-        lastName: 'Avacado',
+        firstName: 'Green to Brown',
+        lastName: 'Coconut',
         middleInitial: 'C',
-        rank: 'A1C',
-        flight: 'DOV',
-        afsc: '8B987A',
+        rank: 'TSgt',
+        flight: 'DVS',
+        afsc: '2L377H',
         squadron: '875MS',
-        deros: "2021-01-01",
+        deros: "2021-12-12",
         bio: 'I like to grow on trees and turn brown fast.',
-        imgURL: "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
-        skills: ['basket-weeving','cross-fit'],
-        tasksCurrent: [],
+        imgURL: "https://avatars.dicebear.com/v2/human/7.svg?options[width]=100&options[height]=100",
+        skills: ['jumping on bed', 'living', 'blackmail'],
+        tasksCurrent: ['provide husks to make fire'],
         tasksCompleted: []
     },
     {
@@ -122,7 +122,7 @@ const sampleAirman = [
         squadron: '875MS',
         deros: "2021-01-01",
         bio: 'I like to grow on trees and turn brown fast.',
-        imgURL: "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+        imgURL: "https://avatars.dicebear.com/v2/human/8.svg?options[width]=100&options[height]=100",
         skills: ['basket-weeving','cross-fit'],
         tasksCurrent: [],
         tasksCompleted: []
@@ -138,7 +138,7 @@ const sampleAirman = [
         squadron: '875MS',
         deros: "2021-01-01",
         bio: 'I like to grow on trees and turn brown fast.',
-        imgURL: "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+        imgURL: "https://avatars.dicebear.com/v2/human/9.svg?options[width]=100&options[height]=100",
         skills: ['basket-weeving','cross-fit'],
         tasksCurrent: [],
         tasksCompleted: []
@@ -154,7 +154,7 @@ const sampleAirman = [
         squadron: '875MS',
         deros: "2021-01-01",
         bio: 'I like to grow on trees and turn brown fast.',
-        imgURL: "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+        imgURL: "https://avatars.dicebear.com/v2/human/10.svg?options[width]=100&options[height]=100",
         skills: ['basket-weeving','cross-fit'],
         tasksCurrent: [],
         tasksCompleted: []
@@ -170,7 +170,7 @@ const sampleAirman = [
         squadron: '875MS',
         deros: "2021-01-01",
         bio: 'I like to grow on trees and turn brown fast.',
-        imgURL: "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+        imgURL: "https://avatars.dicebear.com/v2/human/11.svg?options[width]=100&options[height]=100",
         skills: ['basket-weeving','cross-fit'],
         tasksCurrent: [],
         tasksCompleted: []
