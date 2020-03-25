@@ -6,8 +6,8 @@ const BaseballCard = ({airman}) =>{
         <div>
             <img src={airman.imgURL}/>
             <h3>{fullName}</h3>
-            {airman.skills.map((skill) =>(
-                <button>{skill}</button>
+            {airman.skills.map((skill,index) =>(
+                <button key={index}>{skill}</button>
             ))}
         </div>
     )
